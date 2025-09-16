@@ -101,7 +101,7 @@ export const ElementLight = (): JSX.Element => {
             aria-label="Profile picture of Ana lza"
           />
 
-          <div className="flex flex-1 items-start gap-px pt-[21.44px] pb-4 px-0 flex-col relative min-w-0">
+          <div className="flex flex-1 items-start gap-px pt-[21.44px] pb-4 px-0 flex-col relative min-w-0 w-full sm:w-auto">
             <div className="flex flex-col items-start relative self-stretch w-full flex-[0_0_auto]">
               <h1 className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] font-kamilydias-com-semantic-heading-1 font-[number:var(--kamilydias-com-semantic-heading-1-font-weight)] text-white text-[22px] md:text-[length:var(--kamilydias-com-semantic-heading-1-font-size)] tracking-[var(--kamilydias-com-semantic-heading-1-letter-spacing)] leading-[28px] md:leading-[var(--kamilydias-com-semantic-heading-1-line-height)] [font-style:var(--kamilydias-com-semantic-heading-1-font-style)]">
                 {profileData.name}
@@ -184,7 +184,7 @@ export const ElementLight = (): JSX.Element => {
         </section>
 
         <nav
-          className="flex flex-col items-start gap-2 pt-[26px] pb-0 px-0 relative self-stretch w-full flex-[0_0_auto]"
+          className="flex flex-col items-start gap-2 pt-[26px] pb-0 px-0 relative self-stretch w-full flex-[0_0_auto] px-4"
           aria-label="Social media links"
         >
           {socialLinks.map((link) => (
