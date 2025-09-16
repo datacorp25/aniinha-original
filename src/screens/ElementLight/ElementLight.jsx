@@ -89,10 +89,10 @@ const socialLinks = [
 export const ElementLight = (): JSX.Element => {
   return (
     <main
-      className="flex flex-col w-full min-h-screen items-center justify-start px-4 py-0 relative bg-[url(https://c.animaapp.com/eVXvmGHZ/img/1920w-light.svg)] bg-cover bg-center"
+      className="flex flex-col w-full min-h-screen items-center justify-start px-4 py-0 relative bg-[url(https://c.animaapp.com/eVXvmGHZ/img/1920w-light.svg)] bg-cover bg-center md:px-0"
       data-model-id="1:165"
     >
-      <div className="flex w-full max-w-none md:max-w-[560px] items-start gap-2 pt-8 pb-20 px-4 flex-[0_0_auto] flex-col relative">
+      <div className="flex w-full max-w-full md:max-w-[560px] items-start gap-2 pt-8 pb-20 px-4 flex-[0_0_auto] flex-col relative">
         <header className="flex flex-col sm:flex-row items-center gap-2 relative self-stretch w-full flex-[0_0_auto] bg-transparent">
           <div
             className="relative w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-[55px] md:rounded-[65px] shadow-[0px_8px_24px_#00000070] bg-cover bg-[50%_50%] flex-shrink-0"
