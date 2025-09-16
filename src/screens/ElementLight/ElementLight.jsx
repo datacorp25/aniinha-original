@@ -89,11 +89,11 @@ const socialLinks = [
 export const ElementLight = (): JSX.Element => {
   return (
     <main
-      className="flex flex-col w-full min-h-screen items-center justify-start px-0 md:px-[680px] py-0 relative bg-[url(https://c.animaapp.com/eVXvmGHZ/img/1920w-light.svg)] bg-cover bg-[50%_50%]"
+      className="flex flex-col w-full min-h-screen items-center justify-start px-4 py-0 relative bg-[url(https://c.animaapp.com/eVXvmGHZ/img/1920w-light.svg)] bg-cover bg-center"
       data-model-id="1:165"
     >
-      <div className="flex w-full max-w-none md:max-w-[560px] items-start gap-2 pt-8 pb-20 px-4 md:px-3.5 flex-[0_0_auto] flex-col relative">
-        <header className="flex items-center gap-2 relative self-stretch w-full flex-[0_0_auto] bg-transparent">
+      <div className="flex w-full max-w-none md:max-w-[560px] items-start gap-2 pt-8 pb-20 px-4 flex-[0_0_auto] flex-col relative">
+        <header className="flex flex-col sm:flex-row items-center gap-2 relative self-stretch w-full flex-[0_0_auto] bg-transparent">
           <div
             className="relative w-[110px] h-[110px] md:w-[130px] md:h-[130px] rounded-[55px] md:rounded-[65px] shadow-[0px_8px_24px_#00000070] bg-cover bg-[50%_50%] flex-shrink-0"
             style={{ backgroundImage: `url(${profileData.profileImage})` }}
@@ -157,7 +157,7 @@ export const ElementLight = (): JSX.Element => {
           {promotionalBanners.map((banner) => (
             <a
               key={banner.id}
-              className="self-stretch w-full h-[150px] rounded-[14px] overflow-hidden border-[3px] border-solid shadow-[0px_6px_18px_#0000004c] relative animate-blink-continuous"
+              className="self-stretch w-full h-[150px] rounded-[14px] overflow-hidden border-[3px] border-solid shadow-[0px_6px_18px_#0000004c] relative animate-blink-continuous mx-auto max-w-full"
               style={{
                 backgroundColor: banner.bgColor,
                 borderColor: banner.borderColor,
@@ -190,7 +190,7 @@ export const ElementLight = (): JSX.Element => {
           {socialLinks.map((link) => (
             <a
               key={link.id}
-              className="flex items-center gap-2.5 px-4 py-3.5 relative self-stretch w-full flex-[0_0_auto] rounded-2xl border-2 border-solid shadow-[0px_8px_26px_#00000040] backdrop-blur-[1px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(1px)_brightness(100%)] transition-transform duration-300 ease-out hover:scale-105"
+              className="flex items-center gap-2.5 px-4 py-3.5 relative self-stretch w-full flex-[0_0_auto] rounded-2xl border-2 border-solid shadow-[0px_8px_26px_#00000040] backdrop-blur-[1px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(1px)_brightness(100%)] transition-transform duration-300 ease-out hover:scale-105 mx-auto max-w-full"
               style={{
                 background: link.bgColor,
                 borderColor: link.borderColor,
