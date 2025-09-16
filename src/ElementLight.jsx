@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from "react";
 
 const profileData = {
@@ -116,7 +115,7 @@ export const ElementLight = (): JSX.Element => {
               />
 
               <div className="inline-flex items-start flex-[0_0_auto] z-0 flex-col relative">
-                <p className="relative w-fit mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-bold text-white text-[13px] md:text-[15.8px] tracking-[0] leading-[18px] md:leading-[23.2px] whitespace-nowrap">
+                <p className="relative w-fit mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\'Inter\',Helvetica] font-bold text-white text-[13px] md:text-[15.8px] tracking-[0] leading-[18px] md:leading-[23.2px] whitespace-nowrap">
                   {profileData.status}
                 </p>
               </div>
@@ -130,14 +129,14 @@ export const ElementLight = (): JSX.Element => {
               />
 
               <div className="inline-flex items-start flex-[0_0_auto] flex-col relative">
-                <p className="relative w-auto h-6 mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-bold text-white text-[12px] md:text-[15.9px] tracking-[0] leading-[18px] md:leading-[23.2px] truncate">
+                <p className="relative w-auto h-6 mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\'Inter\',Helvetica] font-bold text-white text-[12px] md:text-[15.9px] tracking-[0] leading-[18px] md:leading-[23.2px] truncate">
                   {profileData.location}
                 </p>
               </div>
             </div>
 
             <div className="flex items-start self-stretch w-full flex-[0_0_auto] flex-col relative">
-              <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-bold text-white text-[13px] md:text-[15.6px] tracking-[0] leading-[18px] md:leading-[23.2px]">
+              <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-bold text-white text-[13px] md:text-[15.6px] tracking-[0] leading-[18px] md:leading-[23.2px]">
                 {profileData.description.split("\n").map((line, index) => (
                   <React.Fragment key={index}>
                     {line}
@@ -211,8 +210,8 @@ export const ElementLight = (): JSX.Element => {
               <div className="flex items-start gap-px flex-col relative flex-1">
                 <div className="flex items-start self-stretch w-full flex-[0_0_auto] flex-col relative">
                   {link.id === 1 ? (
-                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-bold text-white text-[15.6px] tracking-[0] leading-[17.6px]">
-                      <span className="[font-family:'Inter',Helvetica] font-bold text-white text-[15.6px] tracking-[0] leading-[17.6px]">
+                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-bold text-white text-[15.6px] tracking-[0] leading-[17.6px]">
+                      <span className="[font-family:\[\'Inter\',Helvetica] font-bold text-white text-[15.6px] tracking-[0] leading-[17.6px]">
                         Aninha
                       </span>
                       <span className="underline"> WhatsApp</span>
@@ -224,7 +223,7 @@ export const ElementLight = (): JSX.Element => {
                         fontFamily:
                           link.id === 4
                             ? "var(--kamilydias-com-inter-bold-font-family)"
-                            : "'Inter',Helvetica",
+                            : "\'Inter\',Helvetica",
                         fontSize:
                           link.id === 3
                             ? "14.6px"
@@ -266,9 +265,9 @@ export const ElementLight = (): JSX.Element => {
 
                 <div className="flex items-start self-stretch w-full flex-[0_0_auto] opacity-95 flex-col relative">
                   {link.id === 2 ? (
-                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-medium text-[#f1ece8] text-[11.2px] tracking-[0] leading-[17.4px]">
+                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-medium text-[#f1ece8] text-[11.2px] tracking-[0] leading-[17.4px]">
                       <span className="underline">@a</span>
-                      <span className="[font-family:'Inter',Helvetica] font-medium text-[#f1ece8] text-[11.2px] tracking-[0] leading-[17.4px]">
+                      <span className="[font-family:\[\'Inter\',Helvetica] font-medium text-[#f1ece8] text-[11.2px] tracking-[0] leading-[17.4px]">
                         niinhalza
                       </span>
                     </p>
@@ -277,12 +276,12 @@ export const ElementLight = (): JSX.Element => {
                       {link.description}
                     </p>
                   ) : link.id === 5 ? (
-                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-medium text-[#f1ece8] text-[11.1px] tracking-[0] leading-[17.4px] underline">
+                    <p className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-medium text-[#f1ece8] text-[11.1px] tracking-[0] leading-[17.4px] underline">
                       {link.description}
                     </p>
                   ) : (
                     <p
-                      className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:'Inter',Helvetica] font-medium text-[#f1ece8] tracking-[0] leading-[17.4px] underline"
+                      className="relative self-stretch mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-medium text-[#f1ece8] tracking-[0] leading-[17.4px] underline"
                       style={{
                         fontSize: link.id === 1 ? "11.1px" : "11.4px",
                       }}
@@ -314,7 +313,7 @@ export const ElementLight = (): JSX.Element => {
                     fontFamily:
                       link.id === 5
                         ? "var(--kamilydias-com-inter-medium-font-family)"
-                        : "'Inter',Helvetica",
+                        : "\'Inter\',Helvetica",
                     fontWeight:
                       link.id === 5
                         ? "var(--kamilydias-com-inter-medium-font-weight)"
@@ -339,12 +338,6 @@ export const ElementLight = (): JSX.Element => {
                       link.id === 5
                         ? "var(--kamilydias-com-inter-medium-font-style)"
                         : "normal",
-                    marginRight:
-                      link.id === 1
-                        ? "-0.31px"
-                        : link.id === 5
-                          ? "-0.64px"
-                          : "0",
                   }}
                   href={link.buttonHref}
                   rel="noopener noreferrer"
@@ -357,8 +350,8 @@ export const ElementLight = (): JSX.Element => {
           ))}
         </nav>
 
-        <footer className="flex items-center pt-[11px] pb-0 px-0 self-stretch w-full flex-[0_0_auto] opacity-70 flex-col relative">
-          <p className="relative self-stretch mt-[-1.00px] [font-family:'Inter',Helvetica] font-medium text-[#e9e2dc] text-[11.1px] text-center tracking-[0] leading-[17.4px]">
+        <footer className="flex items-center justify-center gap-2.5 pt-10 pb-0 px-0 relative self-stretch w-full flex-[0_0_auto]">
+          <p className="relative w-fit mt-[-1.00px] [text-shadow:0.5px_0.5px_1px_#000000] [font-family:\[\'Inter\',Helvetica] font-medium text-white text-[12.8px] text-center tracking-[0] leading-[17.4px] whitespace-nowrap">
             © Ana Luiza • Todos os direitos reservados
           </p>
         </footer>
@@ -367,17 +360,4 @@ export const ElementLight = (): JSX.Element => {
   );
 };
 
-=======
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Aniinha</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
-</html>
->>>>>>> e48c5fd (Reestruturação do projeto para formato padrão Vite + React)
+
